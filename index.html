@@ -2,6 +2,51 @@
 <html lang="en">
 <head>
     <title>Belajar HTML #01</title>
+    <style>
+        html, body, div, span, applet, object, iframe,
+ p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+    </style>
 </head>
 <body>
     <div class="container" style="font-family: courier;"> 
@@ -17,10 +62,10 @@
         <div  class="footer" style="margin: auto; max-width: 64rem; margin-top: 12px;">
             <footer>
                 <center>
-                    <img src="images/img_avatar2.png" alt="" style=" border-radius: 50%; width:150px" />
+                    <img src="images/ainun.jpeg" alt="" style=" border-radius: 50%; width:150px; height: 150px;" />
                     <h3>Nurul Ainun</h3> 
                     <p>Student and Intern Frontend Developer</p>   
-                    <div>
+                    <div style="padding: 12px;">
                         <a href="https://twitter.com/account/access"><img src="images/icons/twiter.png" alt="" style="height: 16px;" /></a>
                         <a href="https://www.instagram.com/"><img src="images/icons/ig.png" alt="" style="height: 16px;" /></a>
                         <a href="https://id.linkedin.com/"><img src="images/icons/in.png" alt="" style="height: 16px;" /></a>
@@ -31,17 +76,21 @@
             </footer>
             <hr>
             <div>
-                <div  style="display: flex; justify-content: space-between; ">
-                    <h2>my process of learning to become a frontend developer</h2>
-                    <p>April 10, 2023</p>
+                <div>
+                    <div  style="display: flex; justify-content: space-between; align-items: center;">
+                        <h2>my process of learning to become a frontend developer</h2>
+                        <p >April 10, 2023</p>
+                    </div>
+                    <p style="padding-top: 0px;">When I first started my internship, I was taught about HTML and CSS, then I learned Bootstrap, after that I continued learning Javascript and Tailwind.</p>    
                 </div>
-                <p>When I first started my internship, I was taught about HTML and CSS, then I learned Bootstrap, after that I continued learning Javascript and Tailwind.</p>
-                <div  style="display: flex; justify-content: space-between; ">
-                    <h2>My feelings when learn how to become a frontend developer</h2>
-                    <p>April 10, 2023</p>
+                <div>
+                    <div  style="display: flex; justify-content: space-between; align-items: center;">
+                        <h2>My feelings when learn how to become a frontend developer</h2>
+                        <p>April 10, 2023</p>
+                    </div>
+                    <p>I am very happy and proud of myself. Because, I have succeeded in making a daily web report and it has been used by vocational school students who have done internships in the office where I work. And I have also created a website and launched it, with several of my colleagues.</p>    
                 </div>
-                <p>I am very happy and proud of myself. Because, I have succeeded in making a daily web report and it has been used by vocational school students who have done internships in the office where I work. And I have also created a website and launched it, with several of my colleagues.</p>
-                <p style="text-align:end; color:darkcyan;">Older Posts →</p>
+               <p style="text-align:end; color:darkcyan;">Older Posts →</p>
             </div>
         </div>
     </div>
