@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        a {
+            text-decoration: none;
+            color:white;
+        }
+        table, th, td {
+            border: 1px solid;
+            padding: 2px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="font-family: courier;">
+        <div class="navbar">
+            <nav >
+                <div style=" display: flex; justify-content:end; position: fixed;   width: 100%; background-color: darkcyan;  top: 0;
+                left: 0;">
+                <p style="padding-right: 12px;  font-size: 1rem;" ><a href="blog.html">home</a></p>
+                <p style="padding-right: 12px;  font-size: 1rem;" ><a href="about.html">About</a></p>
+                <p style="padding-right: 12px;  font-size: 1rem;" ><a href="post.html">Post</a></p>
+            </div>
+        </nav>
+    </div>
+    <div style="max-width: 64rem; margin: auto;">
+        <h1 style="color:darkcyan; text-align: center; padding-top: 64px;">Learn HTML Table</h1>
+        <hr>
+        <div style="padding-left: 1rem; padding-right: 1rem;">
+            <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cilium dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non Proident.</p>
+        </div>
+        <table >
+            <tr>
+                <th rowspan="2">No.</th>
+                <th rowspan="2">School</th>
+                <th rowspan="2">Level</th>
+                <th colspan="3">class</th>
+                <th rowspan="2">Total Student</th>
+            </tr>
+            <tr>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: center;">2</td>
+                <td style="text-align: center;">3</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;" rowspan="2">1</td>
+                <td rowspan="2">Sekolah Islam Terpadu Bulukumba</td>
+                <td >SMP Islam Terpadu Bulukumba</td>
+                <td style="text-align: center;">32</td>
+                <td style="text-align: center;">30</td>
+                <td style="text-align: center;">31</td>
+                <td style="text-align: center;">95</td>
+            </tr>
+            <tr>
+                <td>SMA Islam Terpadu Bulukumba</td>
+                <td colspan="3" style="text-align: center;">32</td>
+                <td style="text-align: center;">96</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;" rowspan="3">2</td>
+                <td rowspan="3">Sekolah Kristen Terpadu Bulukumba</td>
+                <td>SMP Kristen Terpadu Bulukumba</td>
+                <td style="text-align: center;">32</td>
+                <td style="text-align: center;">30</td>
+                <td style="text-align: center;">31</td>
+                <td style="text-align: center;">95</td>
+            </tr>
+            <tr>
+                <td>SMA Kristen Terpadu Bulukumba</td>
+                <td style="text-align: center;">32</td>
+                <td style="text-align: center;">30</td>
+                <td style="text-align: center;">31</td>
+                <td style="text-align: center;">95</td>
+            </tr>
+            <tr>
+                <td>SMK Kristen Terpadu Bulukumba</td>
+                <td style="text-align: center;">32</td>
+                <td style="text-align: center;">30</td>
+                <td style="text-align: center;">31</td>
+                <td style="text-align: center;">95</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">3</td>
+                <td>Sekolah PGRI Bulukumba</td>
+                <td>SMA PGRI Bulukumba</td>
+                <td colspan="3" style="text-align: center;">32</td>
+                <td style="text-align: center;">96</td>
+            </tr>
+            <tr>
+                <th colspan="6" style="text-align: center;">Total Student</th>
+                <th style="text-align: center;">255</th>
+            </tr>
+        </table>
+    </div>
+    
+</div>
+
+</body>
+
+</html>

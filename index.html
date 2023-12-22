@@ -3,97 +3,61 @@
 <head>
     <title>Belajar HTML #01</title>
     <style>
-        html, body, div, span, applet, object, iframe,
- p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+        a {
+            text-decoration: none;
+            color:white;
+        }
     </style>
 </head>
 <body>
     <div class="container" style="font-family: courier;"> 
         <div class="navbar">
-            <nav>
-                <div style=" display: flex; justify-content:end;  ">
-                    <p style="padding-right: 12px; color:darkcyan; font-size: 1rem;">home</p>
-                    <p style="padding-right: 12px; color:darkcyan; font-size: 1rem;">About</p>
-                    <p style="padding-right: 12px; color:darkcyan;	font-size: 1rem;">post</p>
-                </div>
-            </nav>
-        </div>
-        <div  class="footer" style="margin: auto; max-width: 64rem; margin-top: 12px;">
-            <footer>
-                <center>
-                    <img src="images/ainun.jpeg" alt="" style=" border-radius: 50%; width:150px; height: 150px;" />
-                    <h3>Nurul Ainun</h3> 
-                    <p>Student and Intern Frontend Developer</p>   
-                    <div style="padding: 12px;">
-                        <a href="https://twitter.com/account/access"><img src="images/icons/twiter.png" alt="" style="height: 16px;" /></a>
-                        <a href="https://www.instagram.com/"><img src="images/icons/ig.png" alt="" style="height: 16px;" /></a>
-                        <a href="https://id.linkedin.com/"><img src="images/icons/in.png" alt="" style="height: 16px;" /></a>
-                        <a href="https://github.com/"><img src="images/icons/github.png" alt="" style="height: 16px;" /></a>
-                        <a href="mailto:ainunnurul794@gmail.com"><img src="images/icons/massage.png" alt="" style="height: 18px;" /></a>
-                    </div>    
-                </center>    
-            </footer>
-            <hr>
-            <div>
-                <div>
-                    <div  style="display: flex; justify-content: space-between; align-items: center;">
-                        <h2>my process of learning to become a frontend developer</h2>
-                        <p >April 10, 2023</p>
-                    </div>
-                    <p style="padding-top: 0px;">When I first started my internship, I was taught about HTML and CSS, then I learned Bootstrap, after that I continued learning Javascript and Tailwind.</p>    
-                </div>
-                <div>
-                    <div  style="display: flex; justify-content: space-between; align-items: center;">
-                        <h2>My feelings when learn how to become a frontend developer</h2>
-                        <p>April 10, 2023</p>
-                    </div>
-                    <p>I am very happy and proud of myself. Because, I have succeeded in making a daily web report and it has been used by vocational school students who have done internships in the office where I work. And I have also created a website and launched it, with several of my colleagues.</p>    
-                </div>
-               <p style="text-align:end; color:darkcyan;">Older Posts →</p>
+            <nav >
+                <div style=" display: flex; justify-content:end; position: fixed;   width: 100%; background-color: darkcyan;  top: 0;
+                left: 0;">
+                <p style="padding-right: 12px;  font-size: 1rem;" ><a href="index.html">home</a></p>
+                <p style="padding-right: 12px;  font-size: 1rem;" ><a href="about.html">About</a></p>
+                <p style="padding-right: 12px;  font-size: 1rem;" ><a href="post.html">Post</a></p>
             </div>
+        </nav>
+    </div>
+    <div  class="footer" style="margin: auto; max-width: 64rem; margin-top: 64px;">
+        <footer>
+            <center>
+                <img src="images/img_ainun.png" alt="" style=" border-radius: 100%; width:150px" />
+                <h3>Nurul Ainun</h3> 
+                <p>Student and Intern Frontend Developer</p>   
+                <div>
+                    <a href="https://twitter.com/account/access"><img src="images/icons/twiter.png" alt="" style="height: 16px;" /></a>
+                    <a href="https://www.instagram.com/"><img src="images/icons/ig.png" alt="" style="height: 16px;" /></a>
+                    <a href="https://id.linkedin.com/"><img src="images/icons/in.png" alt="" style="height: 16px;" /></a>
+                    <a href="https://github.com/"><img src="images/icons/github.png" alt="" style="height: 16px;" /></a>
+                    <a href="mailto:ainunnurul794@gmail.com"><img src="images/icons/massage.png" alt="" style="height: 18px;" /></a>
+                </div>    
+            </center>    
+        </footer>
+        <hr>
+        <div>
+            <div  style="display: flex; justify-content: space-between; ">
+                <h2><a style="color:darkcyan;" href="learnTable.html">Learn HTML Table</a></h2>
+                <p>April 10, 2023</p>
+            </div>
+            <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cilium dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non Proident.</p>
+            
+            <div  style="display: flex; justify-content: space-between; ">
+                <h2 style="color:darkcyan;">my process of learning to become a frontend developer</h2>
+                <p>April 10, 2023</p>
+            </div>
+            <p>When I first started my internship, I was taught about HTML and CSS, then I learned Bootstrap, after that I continued learning Javascript and Tailwind.</p>
+            <div  style="display: flex; justify-content: space-between; ">
+                <h2 style="color:darkcyan;">My feelings when learn how to become a frontend developer</h2>
+                <p>April 10, 2023</p>
+            </div>
+            <p >I am very happy and proud of myself. Because, I have succeeded in making a daily web report and it has been used by vocational school students who have done internships in the office where I work. And I have also created a website and launched it, with several of my colleagues.</p>
+            <p style="text-align:end; " ><a href="post.html" style="color:darkcyan;">Older Posts →</a></p>
         </div>
     </div>
+</div>
 </body>
 
 </html>
